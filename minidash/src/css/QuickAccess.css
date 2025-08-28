@@ -1,0 +1,21 @@
+.quick-access {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 12px;
+}
+
+.quick-item {
+  color: white;
+  border-radius: 8px;
+  padding: 20px;
+  text-align: center;
+  cursor: pointer;
+  font-weight: bold;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+}
+
+.quick-item .icon {
+  display: block;
+  font-size: 24px;
+  margin-bottom: 6px;
+}

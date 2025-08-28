@@ -1,0 +1,16 @@
+.app {
+  display: flex;
+  background: #f5f7fa;
+  min-height: 100vh;
+}
+
+.main {
+  flex: 1;
+  margin-left: 220px;
+  padding: 20px;
+}
+
+.content {
+  display: flex;
+  margin-top: 20px;
+}

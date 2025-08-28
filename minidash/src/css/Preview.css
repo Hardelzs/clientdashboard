@@ -1,0 +1,18 @@
+.preview {
+  margin-top: 20px;
+}
+
+.preview-box {
+  background: #f3f3f3;
+  padding: 20px;
+  border-radius: 8px;
+  color: #666;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.folder-link {
+  font-size: 14px;
+  color: #4169e1;
+  text-decoration: none;
+}
