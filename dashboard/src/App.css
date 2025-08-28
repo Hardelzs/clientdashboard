@@ -6,11 +6,16 @@
 
 .main {
   flex: 1;
-  margin-left: 220px;
-  padding: 20px;
+  margin-left: 20px;
+  /* padding: 20px; */
+}
+.card {
+  margin-left: 20px;
 }
 
 .content {
   display: flex;
-  margin-top: 20px;
+  margin-top: 60px;
+  margin-left: 17%;
+  height: auto;
 }

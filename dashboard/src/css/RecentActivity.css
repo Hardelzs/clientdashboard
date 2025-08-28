@@ -16,7 +16,7 @@
 }
 
 .recent th, .recent td {
-  padding: 12px;
+  padding: 18px;
   text-align: left;
   border-bottom: 1px solid #eee;
 }
@@ -29,4 +29,10 @@
 .processing {
   color: orange;
   font-weight: bold;
+}
+
+img {
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
 }

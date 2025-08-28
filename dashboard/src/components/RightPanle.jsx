@@ -5,9 +5,9 @@ const RightPanel = () => {
   return (
     <div className="rightpanel">
       <div className="stats">
-        <p>196 <br /> Number of staff</p>
-        <p>16 <br /> Number of leave</p>
-        <p>12 <br /> Profile update request</p>
+        <p><span>196</span> <br /> Number of staff</p>
+        <p><span>16</span> <br /> Number of leave</p>
+        <p><span>12</span> <br /> Profile update request</p>
       </div>
       <div className="birthday">
         <img src="https://i.pravatar.cc/50" alt="user" />

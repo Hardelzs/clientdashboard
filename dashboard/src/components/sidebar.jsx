@@ -1,19 +1,24 @@
-
-import "../css/Sidebar.css";  
+import "../css/Sidebar.css";
+import { FaHome, FaUsers, FaTasks, FaUmbrellaBeach, FaFolder, FaClock, FaAddressBook, FaCog, FaBolt, FaBars } from "react-icons/fa";
 
 const Sidebar = () => {
   return (
     <div className="sidebar">
-      <h2 className="logo">easywire</h2>
+      <h2 className="logo">
+        <FaBars className="hamburger" /> 
+        easywire 
+        <FaBolt className="logo-icon" />
+      </h2>
+
       <ul>
-        <li>🏠 Home</li>
-        <li>👥 Team</li>
-        <li>📝 Tasks</li>
-        <li>🌴 Leaves</li>
-        <li>📂 Projects</li>
-        <li>⏱ Timesheet</li>
-        <li>📇 Contacts</li>
-        <li>⚙️ Account</li>
+        <li><FaHome className="icon" /> Home</li>
+        <li><FaUsers className="icon" /> Team</li>
+        <li><FaTasks className="icon" /> Tasks</li>
+        <li><FaUmbrellaBeach className="icon" /> Leaves</li>
+        <li><FaFolder className="icon" /> Projects</li>
+        <li><FaClock className="icon" /> Timesheet</li>
+        <li><FaAddressBook className="icon" /> Contacts</li>
+        <li><FaCog className="icon" /> Account</li>
       </ul>
     </div>
   );

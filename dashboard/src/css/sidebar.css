@@ -18,15 +18,51 @@
 .sidebar ul {
   list-style: none;
   padding: 0;
+  display: grid;
+  gap: 8px;
 }
 
 .sidebar ul li {
   margin: 18px 0;
   cursor: pointer;
   font-size: 15px;
+  display: flex;
+  align-items: center;
+  gap: 12px;
   transition: 0.3s;
 }
 
 .sidebar ul li:hover {
   color: #ffda79;
+}
+
+.icon {
+  font-size: 18px;
+  color: white;
+}
+.logo {
+  font-size: 22px;
+  font-weight: bold;
+  margin-bottom: 30px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.hamburger {
+  font-size: 20px;
+  cursor: pointer;
+  color: white;
+  margin-right: 5px;
+}
+
+.logo-icon {
+  font-size: 18px;
+  color: #ffda79; /* golden bolt behind text */
+  margin-left: 6px;
+}
+
+.icon {
+  font-size: 18px;
+  color: white;
 }

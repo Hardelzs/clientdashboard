@@ -8,6 +8,7 @@ const RecentActivity = () => {
     { name: "Server setup", status: "Success" },
     { name: "Front-end Design", status: "Processing" },
     { name: "Web Development", status: "Success" },
+    { name: "Web Development", status: "Success" },
   ];
 
   return (
@@ -19,6 +20,7 @@ const RecentActivity = () => {
             <th>Project</th>
             <th>Start Date</th>
             <th>End Date</th>
+            <th>End Date</th>
             <th>Status</th>
           </tr>
         </thead>
@@ -28,6 +30,7 @@ const RecentActivity = () => {
               <td>{p.name}</td>
               <td>15 Aug, 2020</td>
               <td>22 Aug, 2020</td>
+              <td><img src="https://i.pravatar.cc/40" alt="profile" /><img src="https://i.pravatar.cc/40" alt="profile" /><img src="https://i.pravatar.cc/40" alt="profile" /></td>
               <td className={p.status.toLowerCase()}>{p.status}</td>
             </tr>
           ))}

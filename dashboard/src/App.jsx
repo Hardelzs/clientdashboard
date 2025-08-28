@@ -12,7 +12,7 @@ function App() {
       <Sidebar />
       <div className="main">
         <Header />
-        <OverviewCards />
+        <OverviewCards />        
         <div className="content">
           <RecentActivity />
           <RightPanel />
